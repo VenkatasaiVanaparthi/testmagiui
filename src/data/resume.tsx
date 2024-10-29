@@ -1,30 +1,33 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+
 export const DATA = {
-  name: "Venkata Sai Vanaparthi",
-  initials: "SV",
-  url: "https://raksha-portfolio-delta.vercel.app/",
-  location: "Buffalo, NY",
-  locationLink: "https://www.google.com/maps/place/buffalo+ny",
+  name: "VenkataSai Varma",
+  initials: "VVS",
+  url: "https://dillion.io",
+  location: "San Francisco, CA",
+  locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Certified Cloud Engineer with a focus on building cloud-native solutions and a background in both DevOps and technical support. Passionate about solving complex issues and enhancing system reliability.",
+    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
   summary:
-    "With over 4 years of experience, I have worked extensively on cloud infrastructure, technical solutions engineering, and cloud migrations. My journey includes working with tools like AWS, Databricks, and Fortinet to deliver scalable and secure solutions. I’m now targeting opportunities in IT Cloud Site Reliability to leverage my skills in a dynamic environment.",
+    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
     "React",
-    "Java",
+    "Next.js",
+    "Typescript",
+    "Node.js",
     "Python",
-    "SQL",
+    "Go",
+    "Postgres",
     "Docker",
     "Kubernetes",
-    "Postgres",
-    "AWS",
-    "GCP",
-    "Ansible",
-    "Jenkins",
+    "Java",
+    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/projects", icon: ProjectIcon, label: "Projects" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "vvanapar@buffalo.edu",
@@ -34,23 +37,26 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/VenkatasaiVanaparthi",
         icon: Icons.github,
+
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/vvanaparthi",
         icon: Icons.linkedin,
+
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/venkata-x",
+        url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
+
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/venkata-youtube",
+        url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -58,6 +64,7 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
+
         navbar: false,
       },
     },
